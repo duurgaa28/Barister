@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T16:57:07 IST" name="Barister" finished-at="2024-05-30T16:57:35 IST" duration-ms="27735">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T16:57:07 IST" name="Search Test" finished-at="2024-05-30T16:57:23 IST" duration-ms="15321">
+      <class name="Test.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.SearchTest@24c22fe]" started-at="2024-05-30T16:57:07 IST" name="setUp" finished-at="2024-05-30T16:57:20 IST" duration-ms="12291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="asearchTest()[pri:0, instance:Test.SearchTest@24c22fe]" started-at="2024-05-30T16:57:20 IST" name="asearchTest" finished-at="2024-05-30T16:57:22 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asearchTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Test.SearchTest@24c22fe]" started-at="2024-05-30T16:57:22 IST" name="closeTest" finished-at="2024-05-30T16:57:23 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Test.SearchTest -->
+    </test> <!-- Search Test -->
+    <test started-at="2024-05-30T16:57:07 IST" name="Register Test" finished-at="2024-05-30T16:57:24 IST" duration-ms="16965">
+      <class name="Test.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.RegisterTest@1cb346ea]" started-at="2024-05-30T16:57:07 IST" name="setUp" finished-at="2024-05-30T16:57:19 IST" duration-ms="11866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTest()[pri:0, instance:Test.RegisterTest@1cb346ea]" started-at="2024-05-30T16:57:19 IST" name="registerTest" finished-at="2024-05-30T16:57:23 IST" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Test.RegisterTest@1cb346ea]" started-at="2024-05-30T16:57:23 IST" name="closeTest" finished-at="2024-05-30T16:57:24 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Test.RegisterTest -->
+    </test> <!-- Register Test -->
+    <test started-at="2024-05-30T16:57:23 IST" name="Password Validation Test" finished-at="2024-05-30T16:57:31 IST" duration-ms="7537">
+      <class name="Test.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.SearchTest@329dbdbf]" started-at="2024-05-30T16:57:23 IST" name="setUp" finished-at="2024-05-30T16:57:28 IST" duration-ms="4161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="asearchTest()[pri:0, instance:Test.SearchTest@329dbdbf]" started-at="2024-05-30T16:57:28 IST" name="asearchTest" finished-at="2024-05-30T16:57:30 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asearchTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Test.SearchTest@329dbdbf]" started-at="2024-05-30T16:57:30 IST" name="closeTest" finished-at="2024-05-30T16:57:31 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Test.SearchTest -->
+    </test> <!-- Password Validation Test -->
+    <test started-at="2024-05-30T16:57:24 IST" name="SignIn Test" finished-at="2024-05-30T16:57:35 IST" duration-ms="10523">
+      <class name="Test.SignInTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test.SignInTest@2b72cb8a]" started-at="2024-05-30T16:57:25 IST" name="setUp" finished-at="2024-05-30T16:57:30 IST" duration-ms="5360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInTest()[pri:0, instance:Test.SignInTest@2b72cb8a]" started-at="2024-05-30T16:57:30 IST" name="signInTest" finished-at="2024-05-30T16:57:35 IST" duration-ms="4906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Test.SignInTest@2b72cb8a]" started-at="2024-05-30T16:57:35 IST" name="closeTest" finished-at="2024-05-30T16:57:35 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Test.SignInTest -->
+    </test> <!-- SignIn Test -->
+  </suite> <!-- Barister -->
+</testng-results>
